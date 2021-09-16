@@ -7,3 +7,6 @@ rm temp
 git add ip 
 git commit -m "time:`date +%s`"
 git push
+sleep 1
+
+java -jar -Xmx2048m -Xms1500m forge-1.12.2-14.23.5.2854.jar nogui
